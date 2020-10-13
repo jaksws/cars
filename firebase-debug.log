@@ -1,0 +1,97 @@
+[debug] [2020-10-12T17:45:01.304Z] ----------------------------------------------------------------------
+[debug] [2020-10-12T17:45:01.306Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only hosting
+[debug] [2020-10-12T17:45:01.306Z] CLI Version:   8.12.1
+[debug] [2020-10-12T17:45:01.306Z] Platform:      win32
+[debug] [2020-10-12T17:45:01.306Z] Node Version:  v12.19.0
+[debug] [2020-10-12T17:45:01.307Z] Time:          Mon Oct 12 2020 10:45:01 GMT-0700 (GMT-07:00)
+[debug] [2020-10-12T17:45:01.308Z] ----------------------------------------------------------------------
+[debug] [2020-10-12T17:45:01.308Z] 
+[debug] [2020-10-12T17:45:01.314Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-12T17:45:01.315Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2020-10-12T17:45:01.347Z] [hub] writing locator at C:\Users\pc\AppData\Local\Temp\hub-alkabous.json
+[debug] [2020-10-12T17:45:01.368Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/alkabous/webApps/-/config  
+ 
+[debug] [2020-10-12T17:45:03.383Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 12 Oct 2020 17:45:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] 
+┌──────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your apps. │
+└──────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Other reserved ports: 4400
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:27 +0000] "GET / HTTP/1.1" 200 4072 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:27 +0000] \"GET / HTTP/1.1\" 200 4072 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] "GET /__/firebase/7.23.0/firebase-messaging.js HTTP/1.1" 200 40850 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] \"GET /__/firebase/7.23.0/firebase-messaging.js HTTP/1.1\" 200 40850 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] "GET /__/firebase/7.23.0/firebase-analytics.js HTTP/1.1" 200 35753 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] \"GET /__/firebase/7.23.0/firebase-analytics.js HTTP/1.1\" 200 35753 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] "GET /__/firebase/7.23.0/firebase-app.js HTTP/1.1" 200 20120 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] \"GET /__/firebase/7.23.0/firebase-app.js HTTP/1.1\" 200 20120 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] "GET /__/firebase/init.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] \"GET /__/firebase/init.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] "GET /__/firebase/7.23.0/firebase-storage.js HTTP/1.1" 200 39720 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] \"GET /__/firebase/7.23.0/firebase-storage.js HTTP/1.1\" 200 39720 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] "GET /__/firebase/7.23.0/firebase-database.js HTTP/1.1" 200 189640 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] \"GET /__/firebase/7.23.0/firebase-database.js HTTP/1.1\" 200 189640 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] "GET /__/firebase/7.23.0/firebase-auth.js HTTP/1.1" 200 173656 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:30 +0000] \"GET /__/firebase/7.23.0/firebase-auth.js HTTP/1.1\" 200 173656 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:32 +0000] "GET /__/firebase/7.23.0/firebase-performance.js HTTP/1.1" 200 38602 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:32 +0000] \"GET /__/firebase/7.23.0/firebase-performance.js HTTP/1.1\" 200 38602 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:34 +0000] "GET /__/firebase/7.23.0/firebase-remote-config.js HTTP/1.1" 200 36936 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:34 +0000] \"GET /__/firebase/7.23.0/firebase-remote-config.js HTTP/1.1\" 200 36936 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [12/Oct/2020:17:45:34 +0000] "GET /favicon.ico HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [12/Oct/2020:17:45:34 +0000] \"GET /favicon.ico HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36\""}}
+[debug] [2020-10-12T17:52:25.711Z] ----------------------------------------------------------------------
+[debug] [2020-10-12T17:52:25.712Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
+[debug] [2020-10-12T17:52:25.713Z] CLI Version:   8.12.1
+[debug] [2020-10-12T17:52:25.713Z] Platform:      win32
+[debug] [2020-10-12T17:52:25.713Z] Node Version:  v12.19.0
+[debug] [2020-10-12T17:52:25.714Z] Time:          Mon Oct 12 2020 10:52:25 GMT-0700 (GMT-07:00)
+[debug] [2020-10-12T17:52:25.714Z] ----------------------------------------------------------------------
+[debug] [2020-10-12T17:52:25.714Z] 
+[debug] [2020-10-12T17:52:25.719Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-10-12T17:52:25.719Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\www\alkabous
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using alkabous. 
+[debug] [2020-10-12T17:52:32.578Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/alkabous  
+ 
+[debug] [2020-10-12T17:52:34.302Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 12 Oct 2020 17:52:33 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Didn't detect a .git folder. Assuming D:\www\alkabous is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=861494370&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-10-12T17:52:35.311Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"e32432a30fc1dd3e3ea6","redirect_uri":"http://localhost:9005","state":"861494370"}
+[debug] [2020-10-12T17:52:36.328Z] <<< HTTP RESPONSE 200 {"date":"Mon, 12 Oct 2020 17:52:35 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","server":"GitHub.com","status":"200 OK","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding","etag":"W/\"6e2393c206efae2ed24febb683adeede\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com www.google-analytics.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker.js gist.github.com/socket-worker.js","x-github-request-id":"D453:12CFC:1110914:1808E11:5F8497E2"}
+[debug] [2020-10-12T17:52:36.329Z] >>> HTTP REQUEST GET https://api.github.com/user  
+ 
+[debug] [2020-10-12T17:52:38.243Z] <<< HTTP RESPONSE 200 {"date":"Mon, 12 Oct 2020 17:52:37 GMT","content-type":"application/json; charset=utf-8","content-length":"1368","server":"GitHub.com","status":"200 OK","cache-control":"private, max-age=60, s-maxage=60","vary":"Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With, Accept-Encoding","etag":"\"6e734b4adcae0e106ce4976d6723b23c144b17dda32257de6d7f910420346042\"","last-modified":"Mon, 12 Oct 2020 17:48:26 GMT","x-oauth-scopes":"read:user, repo","x-accepted-oauth-scopes":"","x-oauth-client-id":"89cf50f02ac6aaed3484","x-github-media-type":"github.v3","x-ratelimit-limit":"5000","x-ratelimit-remaining":"4999","x-ratelimit-reset":"1602528757","x-ratelimit-used":"1","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'","x-github-request-id":"D458:13330:620D2DF:7284BFD:5F8497E3"}
+[info] 
+[info] +  Success! Logged into GitHub as jaksws 
+[info] 
